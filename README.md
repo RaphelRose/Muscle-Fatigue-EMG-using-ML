@@ -14,7 +14,7 @@ Muscle fatigue is a commonly observed phenomenon in muscles when exposed to repe
 - To classify muscle fatigue, the following features are extracted from the EMG signals:  
 - **Mean Absolute Value (MAV):** Measures the overall amplitude of the signal.  
 - **Root Mean Square (RMS):** Indicates the signal power and energy.
-- 
+  
 ## 4. Classification Model  
 - Support Vector Machine (SVM) is used for classification.  
 - MATLAB scripts preprocess the signals and train the model.
@@ -26,5 +26,8 @@ The Support Vector Machine (SVM) model was evaluated using 5-fold cross-validati
 - Recall: 1.0
 - F1-Score: 1.0
 - Specificity: 1.0
+
+## Limitation
+This study's dataset was small, and that possibly contributed to the perfect performance. The generalizability of the model to larger, more diverse datasets from possibly different fitness levels and medical conditions was not tested.
 
 
