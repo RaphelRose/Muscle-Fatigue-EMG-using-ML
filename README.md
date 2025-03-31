@@ -8,4 +8,23 @@ Muscle fatigue is a commonly observed phenomenon in muscles when exposed to repe
 
 ## 2. Preprocessing  
 - Raw EMG signals are filtered and standardized.  
-- The first dataset requires preprocessing, while the second is already clean.  
+- The first dataset requires preprocessing, while the second is already clean.
+
+## 3. Feature Extraction
+- To classify muscle fatigue, the following features are extracted from the EMG signals:  
+- **Mean Absolute Value (MAV):** Measures the overall amplitude of the signal.  
+- **Root Mean Square (RMS):** Indicates the signal power and energy.
+- 
+## 4. Classification Model  
+- Support Vector Machine (SVM) is used for classification.  
+- MATLAB scripts preprocess the signals and train the model.
+
+## Result
+The Support Vector Machine (SVM) model was evaluated using 5-fold cross-validation on the dataset for detecting Fatigue and Non-Fatigue states from sEMG signals. The model demonstrated exceptional performance, achieving perfect results across all evaluation metrics, including:
+- Accuracy: 100%
+- Precision: 1.0
+- Recall: 1.0
+- F1-Score: 1.0
+- Specificity: 1.0
+
+
