@@ -35,8 +35,8 @@ The Support Vector Machine (SVM) model was evaluated using 5-fold cross-validati
 This study's dataset was small, and that possibly contributed to the perfect performance. The generalizability of the model to larger, more diverse datasets from possibly different fitness levels and medical conditions was not tested.
 
 ## Reference
-[1] Sapsanis, C., Tzes, A., & Georgoulas, G. (2013). sEMG for Basic Hand movements [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TK53.
-[2] A. Ebied, A. M. Awadallah, M. A. Abbass and Y. El-Sharkawy, 
+- [1] Sapsanis, C., Tzes, A., & Georgoulas, G. (2013). sEMG for Basic Hand movements [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TK53.
+- [2] A. Ebied, A. M. Awadallah, M. A. Abbass and Y. El-Sharkawy, 
 "Upper Limb Muscle Fatigue Analysis Using Multi-channel Surface EMG," 
 2020 2nd Novel Intelligent and Leading Emerging Sciences Conference (NILES), 2020,
 pp. 423-427, doi: 10.1109/NILES50944.2020.9257909.
